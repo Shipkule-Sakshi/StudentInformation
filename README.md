@@ -102,10 +102,6 @@ cd StudentInfoRest
 
 ### 2. Run via Maven
 
-```bash
-mvn spring-boot:run
-```
-
 The app will be accessible at: `http://localhost:8080`
 
 ### 3. Frontend Pages
@@ -139,8 +135,27 @@ This project is open-source and free to use.
 
 **Sakshi Shipkule**
 📧 Email: *shipkulesakshi682@gmail.com*
-🌐 GitHub: [github.com/yourusername](https://github.com/yourusername)
+
+🌐 GitHub: (https://github.com/Shipkule-Sakshi).
 
 ---
 
-Let me know if you’d like a PDF or DOCX version of this README, or if you'd like to include badges, screenshots, or a video demo section!
+##  🖼️ Screenshots
+
+
+### 📋 Registration Form
+
+# 1.
+
+<img width="1877" height="917" alt="Screenshot 2025-08-08 122132" src="https://github.com/user-attachments/assets/28562c9b-3d2c-471e-b657-5a85466c8e31" />
+
+# 2.
+
+<img width="1882" height="911" alt="Screenshot 2025-08-08 122318" src="https://github.com/user-attachments/assets/1aadc129-61c2-429b-a023-83c10ff7589b" />
+
+### 📄 List View
+
+# 1.
+<img width="1893" height="921" alt="Screenshot 2025-08-08 122815" src="https://github.com/user-attachments/assets/e55e7778-5aa6-4e60-95de-ad8b41cdf9bc" />
+
+
