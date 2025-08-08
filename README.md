@@ -131,9 +131,12 @@ This project is open-source and free to use.
 
 ---
 
-## 🙋‍♀️ Author
+## 📫 Contact
+
+If you have any questions or feedback, feel free to reach out:
 
 **Sakshi Shipkule**
+
 📧 Email: *shipkulesakshi682@gmail.com*
 
 🌐 GitHub: (https://github.com/Shipkule-Sakshi).
@@ -158,4 +161,6 @@ This project is open-source and free to use.
 # 1.
 <img width="1893" height="921" alt="Screenshot 2025-08-08 122815" src="https://github.com/user-attachments/assets/e55e7778-5aa6-4e60-95de-ad8b41cdf9bc" />
 
+## ⭐ Thank You for Visiting!
 
+If you found this project helpful, please consider giving it a ⭐ on GitHub!
