@@ -1,0 +1,130 @@
+/* === BODY BACKGROUND WITH IMAGE === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+
+  /* Use relative or web-friendly paths for background images instead of absolute local file paths */
+  /* Example: if your image is in 'images' folder relative to CSS, use: url("../images/background.jpg") */
+
+  background-image: url("file:///C:/sakshi/StudentInfoRest/src/main/resources/static/css/images/student.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  color: #000; /* fallback text color */
+  background-color: #8e8a8a;
+}
+
+/* === MAIN FORM CONTAINER === */
+.main-panel {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color:   white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* === HEADER STYLING === */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f2f2f2;
+  text-shadow: #f9f9f9;
+ 
+}
+
+/* === LAYOUT ROWS === */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* === FORM GROUP STYLING === */
+.form-group {
+  flex: 1;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* === INPUT STYLES === */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+/* === BUTTON STYLE === */
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+
+/* === BUTTON HOVER EFFECT === */
+button:hover {
+  background-color: #f2aeae;
+}
+
+/* === TABLE STYLING === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  -webkit-text-fill-color: #f9f9f9;
+}
+
+/* === H2 Styling === */
+h2 {
+  font-size: 50px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* === LINKS === */
+a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #0056b3;
+}
+
+/* Optional: Responsive fix for form rows */
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}

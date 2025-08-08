@@ -1,0 +1,152 @@
+/* === BODY BACKGROUND WITH IMAGE === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  background-image: url("file:///C:/Users/prash/OneDrive/%E7%94%BB%E5%83%8F/pic/picture.jpg"); /* ✅ Make sure the path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* === MAIN FORM CONTAINER === */
+.main-panel {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* === HEADER STYLING === */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+/* === LAYOUT ROWS === */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* === FORM GROUP STYLING === */
+.form-group {
+  flex: 1;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* === INPUT STYLES === */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* === BUTTON STYLE === */
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: center;
+}
+
+/* === BUTTON HOVER EFFECT === */
+button:hover {
+   background-color: #f2aeae;
+}
+table {
+  border-collapse: collapse;  /* ensures borders collapse into single lines */
+  width: 100%;
+  border: 1px solid #ccc;     /* border around the whole table */
+}
+
+th, td {
+  border: 1px solid #ccc;     /* border around each cell */
+  padding: 10px;
+  text-align: left;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+ 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color:white;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(59, 58, 58);
+  -webkit-text-fill-color: #f9f9f9;
+  text-align:center;
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #0056b3;
+}
+
+h2{
+	background-color:white;
+	border:1px solid black;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	border-radius:10px;
+	font-size:90;
+	font-style:italic;
+	font-size:50;
+    text-align:center;
+	
+}

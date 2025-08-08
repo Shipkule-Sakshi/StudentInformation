@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Edit Student</title>
+</head>
+<body>
+
+  <h1>Edit Student</h1>
+
+  <form id="studentForm">
+    <label>
+      Student Name:
+      <input type="text" name="name" required />
+    </label><br/>
+
+    <label>
+      Mobile No:
+      <input type="text" name="mobileno" required />
+    </label><br/>
+
+    <label>
+      Father's Name:
+      <input type="text" name="fathers_name" />
+    </label><br/>
+
+    <label>
+      Mother's Name:
+      <input type="text" name="mothers_name" />
+    </label><br/>
+
+    <label>
+      Course:
+      <select name="course">
+        <option value="">Select</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+      </select>
+    </label><br/>
+
+    Gender:<br/>
+    <label><input type="radio" name="gender" value="Male" /> Male</label>
+    <label><input type="radio" name="gender" value="Female" /> Female</label><br/>
+
+    Branch:<br/>
+    <label><input type="radio" name="branch" value="CSE" /> CSE</label>
+    <label><input type="radio" name="branch" value="IT" /> IT</label>
+    <label><input type="radio" name="branch" value="ECE" /> ECE</label>
+    <label><input type="radio" name="branch" value="Civil" /> Civil</label><br/>
+
+    <label>
+      Email:
+      <input type="email" name="email" />
+    </label><br/>
+
+    <label>
+      Date of Birth:
+      <input type="date" name="dob" />
+    </label><br/>
+
+    <label>
+      Photo URL:
+      <input type="text" name="photo" />
+    </label><br/>
+
+    <label>
+      Address:
+      <textarea name="address"></textarea>
+    </label><br/>
+
+    <button type="submit">Update Student</button>
+  </form>
+
+  <script src="js/edit.js"></script>
+</body>
+</html>

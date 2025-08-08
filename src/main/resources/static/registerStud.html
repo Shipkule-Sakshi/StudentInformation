@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style1.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="main-panel">
+    <h1>Student Registration Form</h1>
+
+    <form id="studentForm">
+      <div class="row">
+        <div class="form-group">
+          <label for="name">Student Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label for="mobileno">Mobile No.</label>
+          <input type="text" id="mobileno" name="mobileno" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Id</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label for="fathersName">Father's Name</label>
+          <input type="text" id="fathersName" name="fathersName">
+        </div>
+        <div class="form-group">
+          <label for="mothersName">Mother's Name</label>
+          <input type="text" id="mothersName" name="mothersName">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label for="course">Select Course</label>
+          <select id="course" name="course">
+            <option value="">Select...</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+			<option value="Python">OOP</option>
+			<option value="Python">C</option>
+			<option value="Python">C++</option>
+			<option value="Python">C#</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="dob">Date Of Birth</label>
+          <input type="date" id="dob" name="dob">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label>Gender</label>
+          <label><input type="radio" name="gender" value="Male"> Male</label>
+          <label><input type="radio" name="gender" value="Female"> Female</label>
+        </div>
+        <div class="form-group">
+          <label for="photo">Student Photo</label>
+          <!-- Changed here -->
+          <input type="file" id="photo" name="photo" accept="image/*" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label>Select Branch</label>
+          <label><input type="radio" name="branch" value="CSE"> Computer</label>
+		  <label><input type="radio" name="branch" value="CSE"> Robotics</label>
+		  <label><input type="radio" name="branch" value="CSE"> AI</label>
+          <label><input type="radio" name="branch" value="IT"> E&TC</label>
+          <label><input type="radio" name="branch" value="ECE"> Mechanical</label>
+          <label><input type="radio" name="branch" value="Civil"> Civil</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label for="address">Address</label>
+          <textarea id="address" name="address" style="height:110px;"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <button type="submit">Register</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="js/register.js"></script>
+</body>
+</html>
